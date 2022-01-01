@@ -70,7 +70,7 @@ reset_btn.addEventListener("click", () => {
     });
     tip_custom.value = "";
     people_num.value = "";
-    // bill_box_value, tip_option_value, people_num_value = "";
+    bill_box_value, tip_option_value, people_num_value = 0;
     error_txt.classList.remove("error");
     people_num.classList.remove("error");
     reset_btn.classList.remove("active");
